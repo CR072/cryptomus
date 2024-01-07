@@ -5,5 +5,8 @@
     "express": "^4.18.2",
     "keyv": "^4.5.4",
     "node-fetch": "^2.7.0"
-  }
+  },
+  "scripts": {
+    "start": "node src/app.js"
+}
 }
