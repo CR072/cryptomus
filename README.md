@@ -1,18 +1,20 @@
-# NodeJS Cryptomus API Examples
+# NodeJS Cryptomus SDK
 ---
 
-⚠️ This repository is not an official representation of Cryptomus, it serves as an illustrative demonstration of its API functionalities. 🚨
-
-⚠️ Please be aware that this example does not contain any frontend files or demo components. It is intended solely for showcasing the usage of the Cryptomus API. 📚
+⚠️ This repository is not an official SDK of Cryptomus. 🚨
 
 ---
 
-## Endpoints included:
-* /payment/services
-* /wallet
-* /wallet/qr
-* /payment
-* /payment/qr
+## Features included:
+Personal API
+* Market cap
+* Converts
+
+Business API
+* Payments
+* Payouts
+* Recurring payments
+
 
 ---
 
