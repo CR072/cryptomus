@@ -1,0 +1,31 @@
+{
+    "name": "cryptomus",
+    "version": "0.0.0",
+    "description": "Node.js SDK for Cryptomus API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "prepare": "npm run build",
+    "repository": "https://github.com/CR072/cryptomus",
+    "author": {
+        "name": "CR072",
+        "url": "https://github.com/CR072"
+    },
+    "engines": {
+        "node": ">=20.7"
+    },
+    "dependencies": {
+        "node-fetch": "^2.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.7.4",
+        "typescript": "^4.9.5"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "files": [
+        "dist/**/*"
+    ]
+}
