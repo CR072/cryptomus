@@ -1,9 +1,4 @@
 # NodeJS Cryptomus SDK
----
-
-⚠️ This repository is not an official SDK of Cryptomus and is in early beta stage. 🚨
-
----
 
 ## Features included:
 Personal API
